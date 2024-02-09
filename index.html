@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="pizza form">
+    <meta name="keywords" content="menu">
+    <meta name="Devloper" content="Smit Patel">
+    <link rel="shortcut icon" href="pizzaicon1.png" type="x-icon" >
+    <link rel="stylesheet" href="pizza.css">
+    <title>Pizza Form</title>
+</head>
+<body>
+       <form>
+    <header>
+        <main class="title">
+            <center>
+            <H1>SMIT'S PIZZA</H1>
+            <img src="pizza1.png">
+            </center>
+        </div>
+    </header>
+    <main>
+       <div class="pizza">
+        <center><h3 class="question">To deliver the yummy pizza, please answer some of the question below:</h3></center>
+            <center>
+            <table>
+                <tr class="number">
+                    <td>Number Of Pizza:</td>
+                  <td><input type="number"
+                  id="numberofpizza"
+                  name="numberofpizza"
+                  placeholder="Enter the number of pizzas"/></td>
+                </tr>
+
+                <tr>
+                    <td>Number Of slices:</td>
+                    <td><input type="number"
+                        id="numberofslices"
+                        name="numberofslices"
+                        placeholder="Enter the number of slices"/></td>
+                </tr>
+
+                <tr>
+                    <td>Select the shape:</td>
+                    <td>          
+                        <input type="radio" name="pizzaShape" id="Square">
+                        <label for="Square">Square</label>
+                        <input type="radio" name="pizzaShape" id="Round">
+                        <label for="Round">Round</label>
+                    </td>
+                </tr>
+
+                <tr class="topping">
+                    <td>Choose a topping:</td>
+                    <td>
+                        
+                        <input type="checkbox" name="pizzatoppings" id="Broccoli">
+                        <label for="Broccoli">Broccoli</label><br>
+                        <input type="checkbox" name="pizzatoppings" id="Green Olives">
+                        <label for="Green Olives">Green Olives</label><br>
+                        <input type="checkbox" name="pizzatoppings" id="Green Papers">
+                        <label for="Green Papers">Green Papers</label><br>
+                        <input type="checkbox" name="pizzatoppings" id="Jalapeno Papers">
+                        <label for="Jalapeno Papers">Jalapeno Papers</label><br>
+                        <input type="checkbox" name="pizzatoppings" id="cheese">
+                        <label for="cheese">cheese</label><br>
+                        <input type="checkbox" name="pizzatoppings" id="Red Onions">
+                        <label for="Red Onions">Red Onions</label><br>
+                        <input type="checkbox" name="pizzatoppings" id="Tomatoes">
+                        <label for="Tomatoes">Tomatoes</label><br>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Choose a tospping:
+                    </td>
+                    <td>
+                        <select name="Crust" id="Crust">
+                            <option value=" Stuffed crust">Stuffed crust</option>
+                            <option value="Thin crust">Thin crust</option>
+                            <option value="New York style">New York style</option>
+                            <option value="Neapolitan pizza">Neapolitan pizza</option>
+                            <option value="California Pizza">California Pizza</option>
+                            </select>                
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        Delivery Options:
+                    </td>
+                    <td>
+                        <input type="radio" id="take_out" name="delivery" value="take_out" checked>
+                        <label for="take_out">Take Out</label>
+                        <input type="radio" id="delivery" name="delivery" value="delivery">
+                        <label for="delivery">Delivery</label>
+                        <input type="radio" id="eat_in" name="delivery" value="eat_in">
+                        <label for="eat_in">Eat In</label>
+                    </td>
+                </tr>
+                </table>
+                </center>
+            </div>
+          
+
+            <div class="details">
+                <center>
+                    <h2 class="customer_details">Customer Details</h2>
+ 
+                <table>
+                <tr>
+                    <td>
+                        <label for="fristName">Frist Name:</label>
+                    </td>
+                    <td>
+                        <input type="text"
+                                id="fullName"
+                                name="fullName"
+                                placeholder="Enter Frist Name"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="LastName">Last Name:</label></td>
+                    <td>
+                        <input type="text"
+                        id="username"
+                        name="username"
+                        placeholder="Enter Last Name"/>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <label for="phoneNumber">Phone Number:</label>
+                    </td>
+                    <td>
+                        <input type="text"
+                                id="phoneNumber"
+                                name="phoneNumber"
+                                placeholder="Enter Phone Number"/>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td> <input type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Enter Email"/></td>
+                </tr>
+
+                <tr>
+                    <td><label for="date">Select Date:</label></td>
+                    <td><input type="date" id="date" name="date" required></td>
+                </tr>
+    </table>
+</center>
+            </div>
+    </main> 
+    <div class="submit">
+    <center>
+        <input type="submit" value="Place Order">
+        <input type="reset" value="Reset Form">
+    </center>
+    </div>
+
+    <footer>
+        <center>
+            <p>Contact us:</p>
+            <ul>
+                <li>Email: smit200@pizzacompany.com</li>
+                <li>Phone: 555-123-4567</li>
+                <li>Address: 123 Main St, Toronto, Ontario, M2N 5X7P</li>
+            </ul>
+        </center>
+    </footer>
+</form>
+
+</body>
+</html>

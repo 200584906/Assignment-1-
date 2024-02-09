@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background-image: url(pizzabackground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: auto;
+}
+
+header .title{
+    background: rgba(0,0,0,0.4) ;
+    width: 750px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: xx-large;
+}
+
+
+
+div.pizza{
+    font-size: x-large;
+    border: 1px solid black;
+     border-radius: 10px ;
+     padding: 28px;
+     margin: 0px 150px 20px 150px;
+
+}
+
+div.details{
+    font-size: x-large;
+    border: 1px solid black;
+    border-radius: 10px ;
+    padding: 28px;
+    margin: 0px 150px 20px 150px;
+
+}
+
+center.submit{
+    padding-right: 50px;
+    font-size: xx-large;
+}
+
+div.submit{
+    font-size: x-large;
+    border: 1px solid black;
+    max-width: 100%;
+    padding: 28px;
+    margin: 0px 150px;
+    border-radius: 10px;
+}
+
+.question{
+    border: 1px solid black;
+    border-radius: 5px;
+    /* margin: 5px;
+    padding: 5px;
+} */}
+
+.customer_details{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+footer{
+    background: rgba(0,0,0,0.4) ;
+    width: 750px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    font-size: large;
+}
